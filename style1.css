@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: #81D4FA;
+}
+
+main {
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: -1px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #03A9F4;
+}
+
+h4 {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #FFAB91;
+    font-size: x-small;
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+}
+
+header, 
+nav, 
+main, 
+footer {
+    padding: 5px;
+}
+
+section {
+    padding-left: 5px;
+}
+
+nav {
+    background-color: #A5D6A7;
+}
+
+nav a {
+    color: #03A9F4;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #03A9F4;
+}
+
+nav a:active {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-image: url('bullet.png');
+}
+
+header {
+    background-image: url('logo.png'); 
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    padding-left: 150px;
+    height: 80px;
+}
+
+aside#contact {
+    width: 30%;
+    float: right;
+    background-image: linear-gradient(#03A9F4,#81D4FA);
+    border-style: dotted;
+    border-width: thin;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 15px #666666;
+}
+
+section {
+    background-image: url('bali_background.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 5px;
+    box-sizing: 500px;
+}
+
+h2 {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #CCCCCC;
+    padding-left: 10px;
+    padding-top: 450px
+}
